@@ -1,13 +1,28 @@
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Heading from './components/layout/Heading';
+//import Heading from './components/layout/Heading';
 import './App.css';
+// import Menu from './components/layout/Menu'; 
+
+
 
 function App() {
   return (
     <>
-      <Heading title="LOUISE ONSOIEN" />
+      <h1 style={{padding: "2rem"}}>LOUISE ONSØIEN</h1>
+      <navigation>
+        <ul>
+          <li>Home</li>
+          <li>Portfolio</li>
+          <li>About</li>
+        </ul>
+      </navigation>
+      <h3>Text here about me and what I do</h3>
     <div className="example-container">
-      <div> </div>
+      <div> 
+      <p>Text here about me and what I do</p>
+      <p>Text here about me and what I do</p>
+      <p>Text here about me and what I do</p>
+      </div>
     </div>
     </>
   );
