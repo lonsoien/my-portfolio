@@ -9,19 +9,22 @@ function App() {
   return (
     <>
       <h1 style={{padding: "2rem"}}>LOUISE ONSØIEN</h1>
-      <navigation>
+      <div className="menu-list">
         <ul>
           <li>Home</li>
           <li>Portfolio</li>
           <li>About</li>
         </ul>
-      </navigation>
+      </div>
       <h3>Text here about me and what I do</h3>
-    <div className="example-container">
       <div> 
       <p>Text here about me and what I do</p>
       <p>Text here about me and what I do</p>
       <p>Text here about me and what I do</p>
+    </div>
+    <div className="footer">
+      <div>
+        <h3>Tekst here...</h3>
       </div>
     </div>
     </>

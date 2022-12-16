@@ -1,21 +1,15 @@
-body {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(180deg, #a303e7 0%, rgb(230, 62, 242) 100%);
-  overflow: hidden;
+ body {
+  max-width: 50vw;
+  height: 50vh;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
-.example-container div {
-  background: white;
-  border-radius: 100px;
-  width: 1000px;
-  height: 350px;
-  justify-content: center;
-  align-items: center;
-  margin: 100px;
+.footer div {
+  background: linear-gradient(180deg, #a303e7 0%, rgb(230, 62, 242) 100%);
+  overflow: hidden;
+  width: 100vw;
+  height: 70vh;
 }
 
 h1, h2, h3, h4, p {
@@ -29,4 +23,20 @@ li {
 .menu-list div {
   align-items: flex-end;
 }
+
+
+/* Alternatives Styling */ 
+
+/* .example-container div {
+  background: white;
+  border-radius: 100px;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+*/
+
+/* box-sizing: border-box; */
 
