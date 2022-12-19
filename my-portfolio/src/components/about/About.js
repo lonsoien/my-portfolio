@@ -1,10 +1,9 @@
 import Footer from "../layout/Footer";
 
-
 function About() {
     return (
         <>
-        <h1 style={{padding: "2rem", paddingLeft: "150px"}}>LOUISE ONSØIEN</h1>
+        <h2 className="louise">LOUISE ONSØIEN</h2>
         <p>tekst here</p>
         <Footer />
         </>
