@@ -12,7 +12,7 @@ function Menu () {
                 <span className="bottom-line common"></span>
             </div>
         <div className="slide">
-          <h2>MENU</h2>
+          <h2 className="menu-text">MENU</h2>
           <ul>
           <li><NavLink className="nav" href="/">HOME</NavLink></li>
             <li><NavLink className="nav" href="/about">ABOUT</NavLink></li>
