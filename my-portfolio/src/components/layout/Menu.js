@@ -1,14 +1,19 @@
-import { Nav } from "react-bootstrap";
+import { NavLink } from 'react-bootstrap';
 
 function Menu () {
     return (
-        <Nav>
-            <ul>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>About</li>
-            </ul>
-        </Nav>
+        <>
+        <label>
+        <div className='slide'>
+          <h2>MENU</h2>
+          <ul>
+          <li><NavLink href="/">HOME</NavLink></li>
+            <li><NavLink href="/about">ABOUT</NavLink></li>
+            <li><NavLink href="/portfolio">PORTFOLIO</NavLink></li>
+          </ul>
+        </div>
+      </label>
+      </>
     ); 
 }
 
