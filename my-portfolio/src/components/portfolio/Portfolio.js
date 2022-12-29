@@ -15,7 +15,7 @@ function Portfolio() {
             <img src={Environment} alt="mockup kickscrew" className="mockup" />
         </div>
         <div className="container">
-        <button className="view">View Live</button>
+        <a href="https://evironmentbox.netlify.app/" target="blank"><button className="view">View Live</button></a>
         &nbsp;&nbsp;
         <button className="view">View Code</button>
         <br></br>
