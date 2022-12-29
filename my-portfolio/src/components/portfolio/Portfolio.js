@@ -17,7 +17,7 @@ function Portfolio() {
         <div className="container">
         <a href="https://evironmentbox.netlify.app/" target="blank"><button className="view">View Live</button></a>
         &nbsp;&nbsp;
-        <button className="view">View Code</button>
+        <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-lonsoien" target="blank"><button className="view">View Code</button></a>
         <br></br>
         <br></br>
         <p>This is a Project Exam with real life client.</p>
@@ -32,7 +32,7 @@ function Portfolio() {
         <div className="container">
         <button className="view">View Live</button>
         &nbsp;&nbsp;
-        <button className="view">View Code</button>
+        <a href="https://github.com/lonsoien/Semester2-project" target="blank"><button className="view">View Code</button></a>
         <br></br>
         <br></br>
         <p>This is a Semester Project I called Kicks Crew</p>
@@ -55,7 +55,7 @@ function Portfolio() {
         <div className="container">
         <button className="view">View Live</button>
         &nbsp;&nbsp;
-        <button className="view">View Code</button>
+        <a href="https://github.com/lonsoien/js-frameworks" target="blank"><button className="view">View Code</button></a>
         <br></br>
         <br></br>
         <p>This is a Course Assignment from JS Frameworks studies.</p>
