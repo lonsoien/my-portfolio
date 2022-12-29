@@ -1,5 +1,5 @@
 import Footer from "../layout/Footer";
-import sneakers from '../../images/sneakers-product.png'
+import selfie from '../../images/selfie-oslo.JPG'; 
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <h1>A Frontend Developer</h1>
       <br></br>
       <br></br>
-            <img src={sneakers} alt="mockup kickscrew" className="mockup" />
+            <img src={selfie} alt="mockup kickscrew" className="mockup" />
         </div>
     <Footer />
     </>
