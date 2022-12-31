@@ -28,7 +28,8 @@ function About() {
                 <p>This is a field of great interest, and im very passionate about what I do</p>
                 <p>I am easy to get along with, love to work with other people and in teams, but also have the need to lock my self inside my own "bubble" to get that creative mindset.</p>
                 <p>I work hard, are organized and like to have a detailed overview on my projects.</p>
-                <p>Dont be afraid to contact me (contact form will be up soon)</p>
+                <p>Dont be afraid to contact me for enquirements.</p>
+                <p>(contact form will be up soon)</p>
         </div>
         <br></br>
         <Footer />
